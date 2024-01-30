@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, World"}
+    return "Bem vindos ao Posto de saúde"
 
 
 if __name__ == "__main__":
